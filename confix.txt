@@ -1,0 +1,17 @@
+#Lines required to enable 18bit DPI for use with Matts Pi-DPI
+
+dtoverlay=dpi18
+overscan_left=0
+overscan_right=0
+overscan_top=0
+overscan_bottom=0
+enable_dpi_lcd=1
+display_default_lcd=1
+dpi_group=2
+dpi_mode=87
+
+framebuffer_width=320
+framebuffer_height=240
+display_rotate=2
+dpi_output_format=24597 #rgb
+hdmi_timings=320 1 20 30 38 240 1 4 3 10 0 0 0 60 0 9600000 1
